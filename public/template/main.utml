@@ -8,23 +8,16 @@
         <h1><%- config.site %></h1>
 
         <p>This site runs <a href="http://pump.io/">pump.io</a>, the
-	  high-performance Open Source social engine. It pumps your life
-	  in and out of your friends, family and colleagues.</p>
-
-        <% if (config.disableRegistration) { %>
-
-        <p>(No pump.io account yet? <a href="http://pump.io/tryit">Try it</a>!)</p>        
-
-        <% } else { %>
-
-        <p><a class="btn primary large" href="/main/register">Get Started &raquo;</a></p>
-
-        <% } %>
+          high-performance Open Source social networking engine. This
+          particular site does not offer new accounts, but you can <a
+          href="http://pump.io/tryit.html">try out pump.io</a> by
+          registering on any of the public sites out there.</p>
 
       </div>
 
       <div class="span4">
-        <img src="images/somefriends.jpg" width="340" height="235" class="img-rounded" />
+        <h2>Users on this site:</h2>
+        <p><img src="/uploads/sazius/2013/12/3/owSqXg_thumb.jpg" width="32" height="32" class="img-rounded" />&nbsp;&nbsp;&nbsp;<a href="https://<%- config.hostname %>/sazius">sazius</a></p>
       </div>
 
     </div>
